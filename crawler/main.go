@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"github.com/liuqiqi-Y/qiqiCrawler/persist"
-	"github.com/liuqiqi-Y/qiqiCrawler/scheduler"
-	"github.com/liuqiqi-Y/qiqiCrawler/xcar/parser"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/persist"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/scheduler"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/xcar/parser"
 )
 
 func main() {

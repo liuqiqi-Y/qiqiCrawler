@@ -14,7 +14,7 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
 )
 
 var (

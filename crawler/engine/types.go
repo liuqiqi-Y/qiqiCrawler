@@ -1,6 +1,6 @@
 package engine
 
-import "github.com/liuqiqi-Y/qiqiCrawler/config"
+import "github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
 
 type ParserFunc func(
 	contents []byte, url string) ParseResult

@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"github.com/olivere/elastic/v7"
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"github.com/liuqiqi-Y/qiqiCrawler/frontend/model"
-	"github.com/liuqiqi-Y/qiqiCrawler/frontend/view"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/frontend/model"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/frontend/view"
 )
 
 type SearchResultHandler struct {

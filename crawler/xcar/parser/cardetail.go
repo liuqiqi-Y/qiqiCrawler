@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"github.com/liuqiqi-Y/qiqiCrawler/model"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/model"
 )
 
 var priceReTmpl = `<a href="/%s/baojia/".*>(\d+\.\d+)</a>`

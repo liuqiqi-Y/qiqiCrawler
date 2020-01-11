@@ -1,6 +1,6 @@
 package scheduler
 
-import "github.com/liuqiqi-Y/qiqiCrawler/engine"
+import "github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
 
 type QueuedScheduler struct {
 	requestChan chan engine.Request

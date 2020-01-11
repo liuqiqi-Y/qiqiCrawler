@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"github.com/liuqiqi-Y/qiqiCrawler/model"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/model"
 )
 
 var ageRe = regexp.MustCompile(

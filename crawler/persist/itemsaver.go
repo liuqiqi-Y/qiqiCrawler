@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/olivere/elastic/v7"
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
 )
 
 func ItemSaver(

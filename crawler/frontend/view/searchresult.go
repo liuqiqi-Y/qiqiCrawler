@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"io"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/frontend/model"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/frontend/model"
 )
 
 type SearchResultView struct {

@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"github.com/liuqiqi-Y/qiqiCrawler/frontend/model"
-	common "github.com/liuqiqi-Y/qiqiCrawler/model"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/frontend/model"
+	common "github.com/liuqiqi-Y/qiqiCrawler/crawler/model"
 )
 
 func TestSearchResultView_Render(t *testing.T) {

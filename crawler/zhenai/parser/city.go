@@ -3,8 +3,8 @@ package parser
 import (
 	"regexp"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
 )
 
 var (

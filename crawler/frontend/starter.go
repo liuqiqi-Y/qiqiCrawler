@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/frontend/controller"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/frontend/controller"
 )
 
 func main() {

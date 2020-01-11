@@ -3,7 +3,7 @@ package engine
 import (
 	"log"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/fetcher"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/fetcher"
 )
 
 func Worker(r Request) (ParseResult, error) {
