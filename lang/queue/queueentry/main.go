@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"imooc.com/ccmouse/learngo/lang/queue"
+	"github.com/liuqiqi-Y/qiqiCrawler/lang/queue"
 )
 
 func main() {

@@ -5,10 +5,10 @@ import (
 
 	"time"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"github.com/liuqiqi-Y/qiqiCrawler/model"
-	"imooc.com/ccmouse/learngo/crawler_distributed/config"
-	"imooc.com/ccmouse/learngo/crawler_distributed/rpcsupport"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/model"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/rpcsupport"
 )
 
 func TestItemSaver(t *testing.T) {

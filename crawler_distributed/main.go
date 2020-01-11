@@ -10,13 +10,13 @@ import (
 
 	"strings"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"github.com/liuqiqi-Y/qiqiCrawler/scheduler"
-	"github.com/liuqiqi-Y/qiqiCrawler/xcar/parser"
-	itemsaver "imooc.com/ccmouse/learngo/crawler_distributed/persist/client"
-	"imooc.com/ccmouse/learngo/crawler_distributed/rpcsupport"
-	worker "imooc.com/ccmouse/learngo/crawler_distributed/worker/client"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/scheduler"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/xcar/parser"
+	itemsaver "github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/persist/client"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/rpcsupport"
+	worker "github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/worker/client"
 )
 
 var (

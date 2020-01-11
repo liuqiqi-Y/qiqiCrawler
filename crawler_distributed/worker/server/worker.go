@@ -7,9 +7,9 @@ import (
 
 	"flag"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/fetcher"
-	"imooc.com/ccmouse/learngo/crawler_distributed/rpcsupport"
-	"imooc.com/ccmouse/learngo/crawler_distributed/worker"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/fetcher"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/rpcsupport"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/worker"
 )
 
 var port = flag.Int("port", 0,

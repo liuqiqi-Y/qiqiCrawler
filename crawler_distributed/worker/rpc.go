@@ -1,6 +1,6 @@
 package worker
 
-import "github.com/liuqiqi-Y/qiqiCrawler/engine"
+import "github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
 
 type CrawlService struct{}
 

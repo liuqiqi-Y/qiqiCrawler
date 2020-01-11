@@ -3,9 +3,9 @@ package client
 import (
 	"net/rpc"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"imooc.com/ccmouse/learngo/crawler_distributed/config"
-	"imooc.com/ccmouse/learngo/crawler_distributed/worker"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/worker"
 )
 
 func CreateProcessor(

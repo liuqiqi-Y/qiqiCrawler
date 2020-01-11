@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	rpcnames "imooc.com/ccmouse/learngo/crawler_distributed/config"
-	"imooc.com/ccmouse/learngo/crawler_distributed/rpcsupport"
-	"imooc.com/ccmouse/learngo/crawler_distributed/worker"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	rpcnames "github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/rpcsupport"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/worker"
 )
 
 func TestCrawlService(t *testing.T) {

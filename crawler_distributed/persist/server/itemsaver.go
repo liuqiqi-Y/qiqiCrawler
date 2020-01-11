@@ -6,9 +6,9 @@ import (
 	"log"
 
 	"github.com/olivere/elastic/v7"
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	"imooc.com/ccmouse/learngo/crawler_distributed/persist"
-	"imooc.com/ccmouse/learngo/crawler_distributed/rpcsupport"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/persist"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/rpcsupport"
 )
 
 var port = flag.Int("port", 0,

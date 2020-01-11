@@ -3,9 +3,9 @@ package client
 import (
 	"log"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	"imooc.com/ccmouse/learngo/crawler_distributed/config"
-	"imooc.com/ccmouse/learngo/crawler_distributed/rpcsupport"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler_distributed/rpcsupport"
 )
 
 func ItemSaver(

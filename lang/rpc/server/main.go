@@ -6,7 +6,7 @@ import (
 	"net/rpc"
 	"net/rpc/jsonrpc"
 
-	"imooc.com/ccmouse/learngo/lang/rpc"
+	"github.com/liuqiqi-Y/qiqiCrawler/lang/rpc"
 )
 
 func main() {

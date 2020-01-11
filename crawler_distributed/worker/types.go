@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/liuqiqi-Y/qiqiCrawler/config"
-	"github.com/liuqiqi-Y/qiqiCrawler/engine"
-	xcar "github.com/liuqiqi-Y/qiqiCrawler/xcar/parser"
-	zhenai "github.com/liuqiqi-Y/qiqiCrawler/zhenai/parser"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
+	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
+	xcar "github.com/liuqiqi-Y/qiqiCrawler/crawler/xcar/parser"
+	zhenai "github.com/liuqiqi-Y/qiqiCrawler/crawler/zhenai/parser"
 )
 
 type SerializedParser struct {
