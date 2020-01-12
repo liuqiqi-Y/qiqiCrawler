@@ -2,8 +2,7 @@ package engine
 
 import "github.com/liuqiqi-Y/qiqiCrawler/crawler/config"
 
-type ParserFunc func(
-	contents []byte, url string) ParseResult
+type ParserFunc func(contents []byte, url string) ParseResult
 
 type Parser interface {
 	Parse(contents []byte, url string) ParseResult
@@ -54,8 +53,7 @@ func (f *FuncParser) Serialize() (
 	return f.name, nil
 }
 
-func NewFuncParser(
-	p ParserFunc, name string) *FuncParser {
+func NewFuncParser(p ParserFunc, name string) *FuncParser {
 	return &FuncParser{
 		parser: p,
 		name:   name,

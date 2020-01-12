@@ -35,12 +35,9 @@ var carRe = regexp.MustCompile(
 	`<td><span class="label">是否购车：</span><span field="">([^<]+)</span></td>`)
 var guessRe = regexp.MustCompile(
 	`<a class="exp-user-name"[^>]*href="(http://album.zhenai.com/u/[\d]+)">([^<]+)</a>`)
-var idUrlRe = regexp.MustCompile(
-	`http://album.zhenai.com/u/([\d]+)`)
+var idUrlRe = regexp.MustCompile(`http://album.zhenai.com/u/([\d]+)`)
 
-func parseProfile(
-	contents []byte, url string,
-	name string) engine.ParseResult {
+func parseProfile(contents []byte, url string, name string) engine.ParseResult {
 	profile := model.Profile{}
 	profile.Name = name
 
@@ -56,8 +53,7 @@ func parseProfile(
 		profile.Height = height
 	}
 
-	weight, err := strconv.Atoi(
-		extractString(contents, weightRe))
+	weight, err := strconv.Atoi(extractString(contents, weightRe))
 	if err == nil {
 		profile.Weight = weight
 	}
@@ -107,8 +103,7 @@ func parseProfile(
 	return result
 }
 
-func extractString(
-	contents []byte, re *regexp.Regexp) string {
+func extractString(contents []byte, re *regexp.Regexp) string {
 	match := re.FindSubmatch(contents)
 
 	if len(match) >= 2 {

@@ -9,8 +9,7 @@ import (
 	"github.com/liuqiqi-Y/qiqiCrawler/crawler/engine"
 )
 
-func ItemSaver(
-	index string) (chan engine.Item, error) {
+func ItemSaver(index string) (chan engine.Item, error) {
 	client, err := elastic.NewClient(
 		// Must turn off sniff in docker
 		elastic.SetSniff(false))

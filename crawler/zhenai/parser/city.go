@@ -14,8 +14,7 @@ var (
 		`href="(http://www.zhenai.com/zhenghun/[^"]+)"`)
 )
 
-func ParseCity(
-	contents []byte, _ string) engine.ParseResult {
+func ParseCity(contents []byte, _ string) engine.ParseResult {
 	matches := profileRe.FindAllSubmatch(
 		contents, -1)
 

@@ -53,9 +53,7 @@ func (e *ConcurrentEngine) Run(seeds ...Request) {
 	}
 }
 
-func (e *ConcurrentEngine) createWorker(
-	in chan Request,
-	out chan ParseResult, ready ReadyNotifier) {
+func (e *ConcurrentEngine) createWorker(in chan Request,out chan ParseResult, ready ReadyNotifier) {
 	go func() {
 		for {
 			ready.WorkerReady(in)
